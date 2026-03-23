@@ -1,9 +1,9 @@
 import { useState } from "react";
 import React from "react";
-import Navbar from "../ComponentsTemp/Navbar";
-import Hero from "../ComponentsTemp/Hero";
-import SectionCard from "../ComponentsTemp/SectionCard";
-import ScrollTop from "../ComponentsTemp/ScrollTop";
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import SectionCard from "../Components/SectionCard";
+import ScrollTop from "../Components/ScrollTop";
 
 import Story from "./Story";
 import Journey from "./Journey";
