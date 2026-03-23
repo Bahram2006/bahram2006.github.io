@@ -1,6 +1,7 @@
 import { FaFlag, FaGraduationCap, FaCode, FaRocket } from "react-icons/fa";
 import { X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 export default function Origins({ dark }) {
   const navigate = useNavigate();

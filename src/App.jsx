@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import React from "react";
 
 import Home from "./Pages/Home";
 import Story from "./Pages/Story";
@@ -20,7 +21,7 @@ function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio_1">
 
       <div className={dark 
         ? "bg-[#0f172a] text-white min-h-screen"

@@ -9,6 +9,8 @@ import {
   FaAndroid,
 } from "react-icons/fa";
 
+import React from "react";
+
 import {
   SiTailwindcss,
   SiBootstrap,

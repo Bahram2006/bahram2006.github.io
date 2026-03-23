@@ -1,3 +1,4 @@
+import React from "react";
 import { FaEnvelope, FaLinkedin, FaGithub, FaTelegramPlane } from "react-icons/fa";
 import { X } from "lucide-react";
 import { useNavigate } from "react-router-dom";

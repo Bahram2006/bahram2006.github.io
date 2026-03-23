@@ -1,3 +1,4 @@
+import React from "react";
 import {
   FaEnvelope,
   FaGithub,
@@ -6,32 +7,39 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 export default function Hero({ dark }) {
+  const base = import.meta.env.BASE_URL;
   const logos = [
-    { src: "/logos/skill-icons--flutter-dark.svg", name: "Flutter" },
-    { src: "/logos/skill-icons--htmx-dark.svg", name: "HTMX" },
-    { src: "/logos/skill-icons--linkedin.svg", name: "LinkedIn" },
-    { src: "/logos/skill-icons--powershell-dark.svg", name: "PowerShell" },
-    { src: "/logos/skill-icons--vscode-dark.svg", name: "VS Code" },
-    { src: "/logos/skill-icons--typescript.svg", name: "TypeScript" },
-    { src: "/logos/skill-icons--vite-dark.svg", name: "Vite" },
-    { src: "/logos/skill-icons--mysql-dark.svg", name: "MySQL" },
-    { src: "/logos/skill-icons--npm-dark.svg", name: "NPM" },
-    { src: "/logos/skill-icons--nodejs-dark.svg", name: "Node.js" },
-    { src: "/logos/skill-icons--github-light.svg", name: "GitHub" },
-    { src: "/logos/skill-icons--git.svg", name: "Git" },
-    { src: "/logos/skill-icons--bootstrap.svg", name: "Bootstrap" },
-    { src: "/logos/skill-icons--php-dark.svg", name: "PHP" },
-    { src: "/logos/skill-icons--postman.svg", name: "Postman" },
-    { src: "/logos/skill-icons--mongodb.svg", name: "MongoDB" },
+    { src: `${base}logos/skill-icons--flutter-dark.svg`, name: "Flutter" },
+    { src: `${base}logos/skill-icons--htmx-dark.svg`, name: "HTMX" },
+    { src: `${base}logos/skill-icons--linkedin.svg`, name: "LinkedIn" },
     {
-      src: "/logos/skill-icons--androidstudio-dark.svg",
+      src: `${base}logos/skill-icons--powershell-dark.svg`,
+      name: "PowerShell",
+    },
+    { src: `${base}logos/skill-icons--vscode-dark.svg`, name: "VS Code" },
+    { src: `${base}logos/skill-icons--typescript.svg`, name: "TypeScript" },
+    { src: `${base}logos/skill-icons--vite-dark.svg`, name: "Vite" },
+    { src: `${base}logos/skill-icons--mysql-dark.svg`, name: "MySQL" },
+    { src: `${base}logos/skill-icons--npm-dark.svg`, name: "NPM" },
+    { src: `${base}logos/skill-icons--nodejs-dark.svg`, name: "Node.js" },
+    { src: `${base}logos/skill-icons--github-light.svg`, name: "GitHub" },
+    { src: `${base}logos/skill-icons--git.svg`, name: "Git" },
+    { src: `${base}logos/skill-icons--bootstrap.svg`, name: "Bootstrap" },
+    { src: `${base}logos/skill-icons--php-dark.svg`, name: "PHP" },
+    { src: `${base}logos/skill-icons--postman.svg`, name: "Postman" },
+    { src: `${base}logos/skill-icons--mongodb.svg`, name: "MongoDB" },
+    {
+      src: `${base}logos/skill-icons--androidstudio-dark.svg`,
       name: "Android Studio",
     },
-    { src: "/logos/skill-icons--react-dark.svg", name: "React" },
-    { src: "/logos/skill-icons--javascript.svg", name: "JavaScript" },
-    { src: "/logos/skill-icons--tailwindcss-light.svg", name: "Tailwind" },
-    { src: "/logos/skill-icons--css.svg", name: "CSS3" },
-    { src: "/logos/skill-icons--html.svg", name: "HTML5" },
+    { src: `${base}logos/skill-icons--react-dark.svg`, name: "React" },
+    { src: `${base}logos/skill-icons--javascript.svg`, name: "JavaScript" },
+    {
+      src: `${base}logos/skill-icons--tailwindcss-light.svg`,
+      name: "Tailwind",
+    },
+    { src: `${base}logos/skill-icons--css.svg`, name: "CSS3" },
+    { src: `${base}logos/skill-icons--html.svg`, name: "HTML5" },
   ];
 
   return (
@@ -39,7 +47,7 @@ export default function Hero({ dark }) {
       {/* Profile Image */}
       <div className="group">
         <img
-          src="/f4293632.png"
+          src={`${import.meta.env.BASE_URL}f4293632.png`}
           alt="profile"
           className="w-40 h-40 object-cover rounded-full border-2 border-gray-400 transition-all duration-300 group-hover:-translate-y-2 group-hover:border-blue-500 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.7)]"
         />
