@@ -21,7 +21,7 @@ function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <BrowserRouter basename="/portfolio_1">
+    <BrowserRouter basename="/portfolio_1/">
 
       <div className={dark 
         ? "bg-[#0f172a] text-white min-h-screen"

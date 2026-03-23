@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
-import SectionCard from "../components/SectionCard";
+import SectionCard from "../Components/SectionCard";
 import ScrollTop from "../Components/ScrollTop";
 
 import Story from "./Story";
