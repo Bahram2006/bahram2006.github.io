@@ -137,7 +137,7 @@ export default function Home({ dark, setDark }) {
         </section>
       </div>
 
-      <div className="md:col-span-2 flex justify-center mt-6">
+      <div className="md:col-span-2 flex justify-center mt-7">
         <section id="resume" className="w-full md:w-1/2">
           <SectionCard
             id="resume"
