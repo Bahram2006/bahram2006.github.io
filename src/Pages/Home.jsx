@@ -26,6 +26,7 @@ export default function Home({ dark, setDark }) {
       <Hero dark={dark} />
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-20">
+        <h1>TEST123</h1>
         <section id="story">
           <SectionCard
             id="story"
